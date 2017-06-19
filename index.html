@@ -22,11 +22,11 @@
 			<li><a class="dim" href="http://www.github.com/jlord/sheetsee-pocket#hi" target="_blank">SET UP YOUR ARCHIVE</a></li>
 		</ul>
 
-		<div id="filters" class="container">
+		<!--<div id="filters" class="container">
 			<input id="articleSearch" type="text" placeholder="Search for.."></input>
 			<span class="clear sml-button">Clear</span> 
       <h3>Tags <span id="tags"></span>   
-    </div>
+    </div>-->
 
 		<div id="articleTable"></div>
 
@@ -37,7 +37,7 @@
 	</div><!-- end wrapper -->
 
 	<script id="title" type="text/html">
-		<h1>I've read<span class="highlighted">{{numArticles}}</span> articles from Pocket</h1>
+		<h1>I've read <span class="highlighted">{{numArticles}}</span> articles from Pocket</h1>
 	</script>
 
   <script id="tags" type="text/html">
@@ -46,15 +46,15 @@
     {{/rows}}
   </script>
 
-	<script id="articleTable" type="text/html">
-		<!--<table>
+	<!--<script id="articleTable" type="text/html">
+		<table>
 			<tr><th class="fancy">&#8470;</th><th class="date">Date</th><th class="">Article</th><th>Tags</th></tr>
 		  {{#rows}}
 		  	<tr class="{{rowNumber}}"><td class="light-type">{{rowNumber}}</td><td class="date">{{date}}</td><td class="article"><a href="{{url}}" target="_blank">{{article}}</a></td>
 		  	<td class="tag">{{#tags}}<a href="#">{{tag}}</a> {{/tags}}</td></tr>
 		  {{/rows}}
-	  </table>-->
-	</script>
+	  </table>
+	</script>-->
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
